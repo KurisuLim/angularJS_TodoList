@@ -1,13 +1,18 @@
 # ignore all logs
 *.logs
 
+# IDE - vSCode
+.vscode/*
+
 # ignores dependency cahces
 /node_modules
-/packages
 
-# Environmental variables
-.env
+# compiled output
+/dist
+/tmp
 
 # Hidden systems
 .DS_Store
 
+# misc
+.env
